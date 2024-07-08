@@ -13,7 +13,6 @@
         body{
             margin: 0;
           
-            
         }
         .box{
             display: flex;
@@ -31,7 +30,7 @@
             background: linear-gradient(rgb(191, 217, 240),rgb(248, 242, 242));
             border: 1px solid rgb(10, 131, 133);
             border-radius: 10px;
-            box-shadow: 5px 5px 5px rgb(214, 247, 214);
+            box-shadow: 1px 1px 1px 1px rgb(10, 131, 133);
             
         }
         .profile_image{
@@ -39,7 +38,7 @@
             margin-right: auto;
             display: block;
             border: 5px solid rgb(10, 131, 133);
-            width: 50%; 
+            width: 40%; 
             border-radius: 50%; 
         
         }
@@ -50,15 +49,14 @@
         .name h1{
             
             font-family: "Carter One", system-ui;
-            color: rgb(43, 40, 40);
-            font-weight: bold;
+            color: rgb(59, 56, 56);
+            font-weight: normal;
+            font-size: 25px;
         }
         .designation h2{
             font-family: sans-serif;
+            font-size: medium;
             color: rgb(10, 131, 133);
-
-          
-
 
         }
         .fa {
@@ -75,17 +73,36 @@
         }
         .short-bio{
             text-align: center;
+            margin-top: 30px;
+            padding: 0px 10px 0px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          
         }
         .fa-phone{
             background: rgb(10, 131, 133);
             color: white;
+            margin-right: 10px;
         }
         .fa-envelope{
             background: rgb(10, 131, 133);
             color: white;
+            margin-right: 10px;
         }
         .social-icon{
-            font-size: 15px;
+            font-size: 13px;
+            margin-top: 20px;
+            margin-left: 45px;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        .phone{
+            display: flex;
+            align-items: center;
+        }
+        .email{
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
@@ -97,25 +114,25 @@
             </div>
             <div class="title">
                 <div class="name">
-                    <h1 style=" font-size: 30px;">Musriful Islam</h1>
+                    <h1>Musriful Islam</h1>
                 </div>
               
                 <div class="designation">
-                    <h2 style="font-size: large;">Jr. Web Developer</h2>
+                    <h2>Jr. Web Developer</h2>
                 </div>
               
             </div>
             <div class="short-bio">
                 <p>A motivated student at Ostad Learning Platform, excelling in web development, mastering HTML, CSS, and JavaScript, and building dynamic websites with modern frameworks and tools.</p>
             </div>
-            <div class="social-icon" style="align-items: center;">
-                <div style="display: flex; align-items: center;">
+            <div class="social-icon">
+                <div class="phone">
                     <a href="#" class="fa fa-phone"></a>
                     <p>+8801521221520</p>
                 </div>
-                <div style="display: flex; align-items: center;">     
+                <div class="email">     
                     <a href="#" class="fa fa-envelope"></a>
-                    <p>musrifulislam25@gmail.com</p>
+                    <p>musriful.web@gmail.com</p>
                 </div>
              
            
