@@ -1,5 +1,4 @@
 <?php
-echo "Try programiz.pro";
 $num1 = 4;
 $num2 = 5;
 $num3 = 6;
@@ -13,4 +12,4 @@ else {
 if ($largeNumber<$num3){
     $largeNumber = $num3;
 }
-echo "The largest Number is" .$largeNumber;
+echo "The largest Number is " .$largeNumber;
